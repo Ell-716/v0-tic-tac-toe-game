@@ -1,30 +1,65 @@
-# Tic Tac Toe game
+# 🌸 Tic Tac Toe — Vibecoded Mini Game 🌸
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+🔗 **Live demo:**  
+https://v0-tic-tac-toe-feminine.vercel.app/
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/elenas-projects-c3590f7a/v0-tic-tac-toe-game)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/gqJWomVnXLo)
+A soft, feminine Tic Tac Toe game built as a **vibecoding experiment** using **v0.dev** and refined manually within a few hours.
 
-## Overview
+The goal of this project was not to over-engineer a classic game, but to explore **rapid UI iteration**, **emotional UX**, and **clean state management** under tight time constraints.
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+---
 
-## Deployment
+## ✨ Highlights
 
-Your project is live at:
+- Feminine, calm visual style
+- Smooth animations and micro-interactions
+- Multiple game modes and difficulty levels
+- AI opponent with different behaviors
+- Polished UX with clear game states
+- Accessible and performant by design
 
-**[https://vercel.com/elenas-projects-c3590f7a/v0-tic-tac-toe-game](https://vercel.com/elenas-projects-c3590f7a/v0-tic-tac-toe-game)**
+---
 
-## Build your app
+## 🎮 Features
 
-Continue building your app on:
+### Game Modes
+- **Classic** — 3×3 board, standard rules  
+- **Relax** — larger board, slower pace  
+- **Daily** — same setup for everyone on that day  
 
-**[https://v0.app/chat/gqJWomVnXLo](https://v0.app/chat/gqJWomVnXLo)**
+### Difficulty Levels
+- **Playful** — playful, makes human-like mistakes  
+- **Smart** — balanced strategy  
+- **Expert** — challenging, near-unbeatable  
 
-## How It Works
+### Gameplay Experience
+- Clear turn indicators
+- Highlighted winning combinations
+- Gentle win / lose / draw states (no harsh messaging)
+- Restart game at any time
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+### UX & Polish
+- Soft gradients and elevated cards
+- Subtle animations for moves and results
+- Typography hierarchy for readability
+- Disabled input during AI turns
+- Small delays to make AI feel more “human”
+
+### Accessibility
+- High contrast - brighter colors for visibility
+- Reduced motion - Stops background animation, confetti, and tile effects
+- 
+---
+
+## 🧠 Technical Notes
+
+- Built with **v0.dev** for rapid vibecoding
+- Refined manually with custom logic and styling
+- Game logic handled entirely on the client
+- Persistent settings stored via `localStorage`
+
+No backend is required to run the project.
+
+---
+
+Built with 💗 as a vibecoding experiment.
