@@ -7,6 +7,8 @@ A soft, feminine Tic Tac Toe game built as a **vibecoding experiment** using **v
 
 The goal of this project was not to over-engineer a classic game, but to explore **rapid UI iteration**, **emotional UX**, and **clean state management** under tight time constraints.
 
+The project also includes a **Telegram bot integration** that sends game result notifications and enables promo code rewards.
+
 ---
 
 ## ✨ Highlights
@@ -15,6 +17,7 @@ The goal of this project was not to over-engineer a classic game, but to explore
 - Smooth animations and micro-interactions
 - Multiple game modes and difficulty levels
 - AI opponent with different behaviors
+- Telegram bot integration for game result notifications
 - Polished UX with clear game states
 - Accessible and performant by design
 
@@ -28,7 +31,7 @@ The goal of this project was not to over-engineer a classic game, but to explore
 - **Daily** — same setup for everyone on that day  
 
 ### Difficulty Levels
-- **Playful** — playful, makes human-like mistakes  
+- **Playful** — playful AI that makes human-like mistakes  
 - **Smart** — balanced strategy  
 - **Expert** — challenging, near-unbeatable  
 
@@ -38,27 +41,44 @@ The goal of this project was not to over-engineer a classic game, but to explore
 - Gentle win / lose / draw states (no harsh messaging)
 - Restart game at any time
 
-### UX & Polish
-- Soft gradients and elevated cards
-- Subtle animations for moves and results
-- Typography hierarchy for readability
-- Disabled input during AI turns
-- Small delays to make AI feel more “human”
+### Telegram Bot Rewards
+- Integrated **Telegram Bot API**
+- Sends **automatic win/loss notifications**
+- Generates **promo code rewards for wins**
+- Connects the web game to Telegram for a lightweight engagement loop
 
-### Accessibility
-- High contrast - brighter colors for visibility
-- Reduced motion - Stops background animation, confetti, and tile effects
-- 
+---
+
+## 🤖 Telegram Bot Integration
+
+A simple backend service connects the game to a Telegram bot.
+
+When a game finishes:
+- The result is sent to the backend
+- The backend communicates with the **Telegram Bot API**
+- The bot sends a notification with the result and promo code reward
+
+This creates a small **reward loop** where players can receive promo codes via Telegram.
+
+---
+
+## ⚙️ Accessibility
+
+- **High contrast mode** — brighter colors for improved visibility  
+- **Reduced motion mode** — disables background animation, confetti, and tile effects  
+
 ---
 
 ## 🧠 Technical Notes
 
 - Built with **v0.dev** for rapid vibecoding
-- Refined manually with custom logic and styling
-- Game logic handled entirely on the client
-- Persistent settings stored via `localStorage`
+- UI and core game logic generated and refined in a few hours
+- Frontend deployed via **Vercel**
+- **Node.js backend** built on **Replit**
+- Backend connects the game to the **Telegram Bot API**
+- Game settings persisted locally via `localStorage`
 
-No backend is required to run the project.
+The entire project — **game interface, bot integration, and deployment** — was shipped in under a day by combining **v0’s rapid prototyping** with **Replit’s zero-configuration environment**.
 
 ---
 
